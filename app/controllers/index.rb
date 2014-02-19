@@ -4,6 +4,7 @@ get '/' do
 end
 
 get '/:username/home' do
+	p session
   @user = User.where(email: params[:username]).first
   erb :secret
 end
