@@ -1,18 +1,23 @@
-<h1>Welcome, Sign-in</h1>
-<form action="/sign_in" method="post">
-  
-  
-</form>
+<div style="margin: 0 auto; display: table;">
+  <h1>Welcome, Sign-in</h1>
+  <form action="/sign_in" method="post">
+    <p>email:</p>
+    <input type="text" name="email">
+    <p>password:</p>
+    <input type="password" name="password"><br><br>
+    <input type="submit" value="sign in">
+  </form>
 
-<p>Not signed up?</p>
-<form action="/sign_up" method="post">
-  <p>name:</p>
-  <input type="text" name="name">
-  <p>email:</p>
-  <input type="text" name="email">
-  <p>password:</p>
-  <input type="text" name="password">
-  <p>password_confirmation:</p>
-  <input type="text" name="password_confirmation">
-  <input type="submit" value="Sign up">
-</form>
+  <h3>Not signed up?</h3>
+  <form action="/sign_up" method="post">
+    <p>name:</p>
+    <input type="text" name="name">
+    <p>email:</p>
+    <input type="text" name="email">
+    <p>password:</p>
+    <input type="password" name="password">
+    <p>password_confirmation:</p>
+    <input type="password" name="password_confirmation"><br><br>
+    <input type="submit" value="Sign up">
+  </form>
+</div>
